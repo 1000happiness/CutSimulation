@@ -1,0 +1,110 @@
+﻿  AutoColor.cpp
+  AutoConfiguration.cpp
+  AutoRotation.cpp
+  Camera.cpp
+  Component.cpp
+  CoordinateSystemLines.cpp
+  AmbientLight.cpp
+  DiffuseLight.cpp
+  SpecularLight.cpp
+  UIManager.cpp
+  WorkManager.cpp
+G:\学习\计算机图形学2\期末大作业\code\src\component\Manager\WorkManager.cpp(87,45): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\component\Manager\WorkManager.cpp(88,29): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\component\Manager\WorkManager.cpp(180,22): warning C4305: “+=”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+  ParticleSystem.cpp
+  Transform.cpp
+  BezierPanel.cpp
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\BezierPanel.cpp(211,76): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\BezierPanel.cpp(234,72): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\BezierPanel.cpp(257,74): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\BezierPanel.cpp(282,58): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\BezierPanel.cpp(301,42): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  Button.cpp
+  Label.cpp
+  Slider.cpp
+  Text.cpp
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\Text.cpp(63,37): warning C4838: 从“FT_Pos”转换到“GLuint”需要收缩转换
+  WorkPiece.cpp
+  main.cpp
+  正在编译...
+  ShaderController.cpp
+  ShaderProgram.cpp
+  Texture.cpp
+  Mesh.cpp
+  Model.cpp
+  CameraObject.cpp
+  CanvasObject.cpp
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(11,44): warning C4244: “初始化”: 从“T”转换到“size_t”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(12,57): warning C4244: “初始化”: 从“T”转换到“size_t”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(58,37): warning C4244: “初始化”: 从“T”转换到“unsigned int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(98,58): warning C4244: “参数”: 从“T”转换到“GLsizeiptr”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(136,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(137,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(146,113): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(146,87): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(151,28): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(153,75): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(153,70): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(155,40): warning C4244: “初始化”: 从“T”转换到“unsigned int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(164,94): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+G:\学习\计算机图形学2\期末大作业\code\src\object\CanvasObject\CanvasObject.cpp(164,61): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  Cube.cpp
+  EmptyObject.cpp
+  PointLightObject.cpp
+  ModelObject.cpp
+  ObjectWithShader.cpp
+  Object.cpp
+  scene.cpp
+  Constrain.cpp
+G:\学习\计算机图形学2\期末大作业\code\src\util\Constraint\Constrain.cpp(30,15): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+G:\学习\计算机图形学2\期末大作业\code\src\util\Constraint\Constrain.cpp(38,15): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  stb_image.cpp
+  glad.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+G:\学习\计算机图形学2\期末大作业\code\src\material\ShaderProgram\ShaderProgram.cpp(213): warning C4715: “MAT::ShaderProgram::setUniformBlockBinding”: 不是所有的控件路径都返回值
+G:\学习\计算机图形学2\期末大作业\code\src\component\UI\BezierPanel.cpp(311): warning C4715: “CMP::BezierPanel::setTempPoints”: 不是所有的控件路径都返回值
+  All 3003 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  VS2019_demo.vcxproj -> G:\学习\计算机图形学2\期末大作业\code\x64\Release\VS2019_demo.exe

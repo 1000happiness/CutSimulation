@@ -1,0 +1,9 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/bezier_panel/bezier_panel.vs",
+        "fragment_shader": "./shader/bezier_panel/bezier_panel.fs"
+    },
+    "layouts": {
+        "position": 0
+    }
+}

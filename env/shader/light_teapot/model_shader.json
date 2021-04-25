@@ -1,0 +1,43 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/light_teapot/model.vs",
+        "fragment_shader": "./shader/light_teapot/model.fs"
+    },
+    "layouts": {
+        "position": 0,
+        "normal": 1,
+        "texture": 2,
+        "tangent": 3,
+        "bitangent": 4,
+        "color": 5
+    },
+    "uniforms": {
+        "model": "mat4",
+        "view": "mat4",
+        "projection": "mat4",
+        "aCameraPos": "vec3",
+        "color": "vec4",
+        "pointLight": "PointLight"
+    },
+    "struct": {
+        "PointLight": {
+            "position": "vec3",
+            "constant": "float",
+            "linear": "float",
+            "quadratic":"float",
+            "ambient": "vec3",
+            "diffuse": "vec3",
+            "specular": "vec3"
+        }
+    },
+    "blocks": {
+        "camera_matrices": [
+            "projection",
+            "view",
+            "aCameraPos"
+        ],
+        "point_light_property": [
+            "pointLight"
+        ]
+    }
+}

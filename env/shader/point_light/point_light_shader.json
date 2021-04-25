@@ -1,0 +1,23 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/point_light/point_light.vs",
+        "fragment_shader": "./shader/point_light/point_light.fs"
+    },
+    "layouts": {
+        "position": 0
+    },
+    "uniforms": {
+        "model": "mat4",
+        "view": "mat4",
+        "projection": "mat4",
+        "camera_pos": "vec3",
+        "light_color": "vec4"
+    },
+    "blocks": {
+        "camera_matrices": [
+            "projection",
+            "view",
+            "camera_pos"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/coordinate_system_lines/coordinate_system_lines.vs",
+        "fragment_shader": "./shader/coordinate_system_lines/coordinate_system_lines.fs"
+    },
+    "layouts": {
+        "position": 0
+    },
+    "blocks": {
+        "camera_matrices": [
+            "projection",
+            "view",
+            "aCameraPos"
+        ]
+    }
+}

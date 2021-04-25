@@ -1,0 +1,24 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/particle_system/particle_system.vs",
+        "fragment_shader": "./shader/particle_system/particle_system.fs",
+        "geometry_shader": "./shader/particle_system/particle_system.gs"
+    },
+    "layouts": {
+        "vs_pos": 0,
+        "vs_color": 1,
+        "vs_speed": 2
+    },
+    "uniforms": {
+        "view": "mat4",
+        "projection": "mat4",
+        "aCameraPos": "vec3"
+    },
+    "blocks": {
+        "camera_matrices": [
+            "projection",
+            "view",
+            "aCameraPos"
+        ]
+    }
+}

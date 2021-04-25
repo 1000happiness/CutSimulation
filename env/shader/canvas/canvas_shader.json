@@ -1,0 +1,10 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/canvas/canvas.vs",
+        "fragment_shader": "./shader/canvas/canvas.fs"
+    },
+    "layouts": {
+        "position": 0,
+        "color": 1
+    }
+}

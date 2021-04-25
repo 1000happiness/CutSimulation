@@ -1,0 +1,20 @@
+{
+    "shaders": {
+        "work_piece": "./shader/work_piece/work_piece_shader.json",
+        "point_light": "./shader/point_light/point_light_shader.json",
+        "light_model": "./shader/light_model/model_shader.json",
+        "coordinate_system_lines": "./shader/coordinate_system_lines/coordinate_system_lines_shader.json",
+        "particle_system": "./shader/particle_system/particle_system_shader.json",
+        "label": "./shader/label/label_shader.json",
+        "bezier_panel": "./shader/bezier_panel/bezier_panel_shader.json",
+        "font": "./shader/font/font_shader.json"
+    },
+    "uniform_buffer": {
+        "camera_matrices": 0,
+        "point_light_property": 1
+    },
+    "uniform_blocks": {
+        "camera_matrices": 0,
+        "point_light_property": 1
+    }
+}

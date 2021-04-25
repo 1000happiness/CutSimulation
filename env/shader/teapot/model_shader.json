@@ -1,0 +1,20 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/teapot/model.vs",
+        "fragment_shader": "./shader/teapot/model.fs"
+    },
+    "layouts": {
+        "position": 0,
+        "normal": 1,
+        "texture": 2,
+        "tangent": 3,
+        "bitangent": 4,
+        "color": 5
+    },
+    "uniforms": {
+        "model": "mat4",
+        "view": "mat4",
+        "projection": "mat4",
+        "usePositionFlag": "bool"
+    }
+}

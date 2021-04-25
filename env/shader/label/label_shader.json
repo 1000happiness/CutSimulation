@@ -1,0 +1,10 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/label/label.vs",
+        "fragment_shader": "./shader/label/label.fs"
+    },
+    "layouts": {
+        "position": 0,
+        "texture": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "sub_shaders": {
+        "vertex_shader": "./shader/font/font.vs",
+        "fragment_shader": "./shader/font/font.fs"
+    },
+    "layouts": {
+        "vertex": 0
+    }
+}

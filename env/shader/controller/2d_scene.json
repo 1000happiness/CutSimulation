@@ -1,0 +1,5 @@
+{
+    "shaders": {
+        "canvas": "./shader/canvas/canvas_shader.json"
+    }
+}

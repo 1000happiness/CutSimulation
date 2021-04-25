@@ -1,0 +1,15 @@
+{
+    "layouts": {
+        "position": 0,
+        "normal": 1,
+        "texture": 2,
+        "tangent": 3,
+        "bitangent": 4,
+        "color": 5
+    },
+    "struct": {
+        "PointLight": {
+            "ambient": "vec3"
+        }
+    }
+}
